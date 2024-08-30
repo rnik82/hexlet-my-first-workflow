@@ -15,9 +15,9 @@ jobs:
       # Устанавливаем Node.js
       - uses: actions/setup-node@v4
       # run – произвольная bash-команда
-      - run: make setup
-      - run: make test
-      - run: make lint
+      - run: npm install
+      - run: npm test
+      - run: npm run lint
       # ls -la выведет содержимое текущего репозитория
       - run: make say-hello
 
