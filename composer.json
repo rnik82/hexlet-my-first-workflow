@@ -1,0 +1,15 @@
+{
+    "name": "roman/hexlet-my-first-workflow",
+    "autoload": {
+        "psr-4": {
+            "Roman\\HexletMyFirstWorkflow\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Roman",
+            "email": "rnik82@mail.ru"
+        }
+    ],
+    "require": {}
+}
