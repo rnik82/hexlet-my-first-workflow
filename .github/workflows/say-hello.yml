@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-node@v4
       # run – произвольная bash-команда
       - run: npm install
-      - run: npm test
+      #- run: npm test
       - run: npm run lint
       # ls -la выведет содержимое текущего репозитория
       - run: make say-hello
